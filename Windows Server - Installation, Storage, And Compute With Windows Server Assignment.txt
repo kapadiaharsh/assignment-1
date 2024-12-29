@@ -1,0 +1,109 @@
+Windows Server - Installation, Storage, And Compute With Windows Server Assignment
+
+
+
+31. Installing and Configuring Hyper-V Virtualization in Windows Server 2016
+Process:
+
+Install Hyper-V Role:
+
+Open Server Manager.
+Click on Add roles and features.
+Select Role-based or feature-based installation.
+Choose the server from the server pool.
+In the Server Roles section, check Hyper-V.
+Follow the prompts and click Install.
+Configure Virtual Switch:
+
+After installation, open Hyper-V Manager.
+In the right pane, click on Virtual Switch Manager.
+Create a new virtual switch (External, Internal, or Private) based on your needs.
+Create Virtual Machines:
+
+Right-click on your server name in Hyper-V Manager.
+Select New > Virtual Machine.
+Follow the wizard to configure the VM settings (name, memory, network, etc.).
+32. Monitoring Server Performance and Managing Event Logs in Windows Server
+Monitoring Server Performance:
+
+Use Performance Monitor:
+Open Performance Monitor from the Administrative Tools.
+Add counters to monitor CPU, memory, disk, and network performance.
+Managing Event Logs:
+
+Open Event Viewer:
+Access via Server Manager or by typing eventvwr.msc.
+Review logs under Windows Logs (Application, Security, System) and Applications and Services Logs.
+33. Different Types of Storage Options Available in Windows Server
+Direct Attached Storage (DAS): Storage devices directly connected to the server.
+Network Attached Storage (NAS): Dedicated file storage that provides access over a network.
+Storage Area Network (SAN): High-speed network providing access to consolidated block-level storage.
+File Shares: Shared folders on the server accessible over the network.
+Storage Spaces: Virtual disks created from physical disks for flexibility and redundancy.
+34. Role of File Server in Windows Server and Configuration
+Role of File Server:
+
+A file server stores and manages files for network users, allowing centralized access and management.
+Configuration Steps:
+
+Open Server Manager.
+Click on Add roles and features.
+Select File and Storage Services and then File Server.
+Configure shared folders:
+Right-click on the folder you want to share, select Properties, and go to the Sharing tab.
+Click on Advanced Sharing, check Share this folder, and set permissions.
+35. Implementing and Managing Distributed File System (DFS) in Windows Server 2016
+Process:
+
+Install DFS Role:
+
+Open Server Manager and add the DFS Namespaces and DFS Replication roles.
+Create a DFS Namespace:
+
+Open DFS Management.
+Right-click on Namespaces and select New Namespace.
+Follow the wizard to create the namespace.
+Configure DFS Replication:
+
+In DFS Management, right-click on Replication and select New Replication Group.
+Follow the prompts to add folders and configure replication settings.
+36. Built-in Backup and Recovery Options in Windows Server 2016/2019
+Windows Server Backup: A built-in feature that allows for scheduled backups of the server.
+System State Backup: Backups critical system components like the registry, boot files, and Active Directory.
+Bare Metal Recovery: Allows recovery of the entire server to dissimilar hardware.
+37. Configuring Windows Server Backup to Back Up Critical Data
+Steps:
+
+Open Windows Server Backup from Administrative Tools.
+Click on Backup Once or Backup Schedule.
+Choose Custom for specific data or Full Server for complete backup.
+Select the destination (local disk, remote share).
+Configure the schedule if using Backup Schedule.
+38. Restoring Files and Folders Using Windows Server Backup
+Steps:
+
+Open Windows Server Backup.
+Click on Recover.
+Select the backup location (local or remote).
+Choose the backup date and time.
+Select the files or folders to restore.
+Follow the prompts to complete the restoration process.
+39. Common Troubleshooting Techniques for Windows Server Startup Issues
+Check Boot Order: Ensure the correct boot device is set in BIOS/UEFI.
+Use Safe Mode: Boot into Safe Mode to troubleshoot driver or software issues.
+Check Event Logs: Review logs in Event Viewer for errors.
+Run Startup Repair: Use Windows installation media to access recovery options.
+40. Troubleshooting Network Connectivity Problems in Windows Server
+Check Physical Connections: Ensure cables and switches are functioning.
+Ping Test: Use ping to test connectivity to other devices.
+IP Configuration: Use ipconfig to check for correct IP settings.
+Firewall Settings: Ensure firewall rules are not blocking traffic.
+41. Common Active Directory-Related Issues and Troubleshooting Steps
+Replication Issues: Use repadmin /replsummary to check replication health.
+Authentication Problems: Verify DNS settings and check for proper domain membership.
+Account Lockouts: Use Event Viewer to identify lockout sources.
+42. Troubleshooting Performance Problems on Windows Server 2016/2019
+Resource Monitor: Use to identify high CPU, memory, or disk usage.
+Performance Monitor: Analyze performance counters for bottlenecks.
+Task Manager: Check running processes and services for resource consumption.
+Event Viewer: Look for warnings or errors that may indicate underlying issues.
