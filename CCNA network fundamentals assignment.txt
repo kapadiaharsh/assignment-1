@@ -1,0 +1,69 @@
+
+CCNA network fundamentals assignment
+
+
+
+1. DHCP Process Broadcast Messages
+Which of the following messages in the DHCP process are broadcasted? (Choose two)
+
+C. Discover: This message is broadcasted by the client to find a DHCP server.
+A. Request: This message is also broadcasted by the client to request an IP address from the DHCP server after receiving an offer.
+2. Command to Ensure ACL Does Not Block Web-Based TCP Traffic
+Which command would you use to ensure that an ACL does not block web-based TCP traffic?
+
+B. permit tcp any any eq 80: This command permits TCP traffic on port 80, which is used for HTTP web traffic.
+3. Network Topologies
+Explain Network Topologies
+Network topologies refer to the arrangement of different elements (links, nodes, etc.) in a computer network. Common types include:
+
+Star Topology: All nodes are connected to a central hub. Easy to manage but the hub is a single point of failure.
+Bus Topology: All nodes share a single communication line. Simple and cost-effective but can lead to collisions.
+Ring Topology: Each node is connected to two others, forming a circular pathway. Data travels in one direction. A failure in one node can disrupt the network.
+Mesh Topology: Every node is connected to every other node. Highly reliable but expensive due to the number of connections.
+Hybrid Topology: Combines two or more different topologies.
+4. TCP/IP Networking Model
+Explain TCP/IP Networking Model
+The TCP/IP model is a set of protocols used for communication over the internet. It consists of four layers:
+
+Application Layer: Interfaces with the end-user applications (e.g., HTTP, FTP).
+Transport Layer: Manages end-to-end communication and error recovery (e.g., TCP, UDP).
+Internet Layer: Handles the routing of data packets across networks (e.g., IP).
+Network Interface Layer: Deals with the physical transmission of data over network hardware.
+5. LAN and WAN Networks
+Explain LAN and WAN Networks
+
+LAN (Local Area Network): A network that covers a small geographic area, like a home or office. It typically offers high data transfer rates and low latency.
+WAN (Wide Area Network): A network that covers a larger geographic area, often connecting multiple LANs. It typically has lower data transfer rates and higher latency compared to LANs.
+6. Operation of Switch
+Explain Operation of Switch
+A switch operates at the Data Link layer (Layer 2) of the OSI model. It connects devices within a LAN and uses MAC addresses to forward data to the correct destination. Key functions include:
+
+Frame Forwarding: Receives incoming frames and forwards them to the appropriate port.
+MAC Address Learning: Builds a MAC address table to keep track of which devices are connected to which ports.
+Collision Domain Segmentation: Reduces collisions by creating separate collision domains for each connected device.
+7. Purpose and Functions of Various Network Devices
+Describe the purpose and functions of various network devices
+
+Router: Connects different networks, routes data packets, and manages traffic between them.
+Switch: Connects devices within a LAN and forwards data based on MAC addresses.
+Hub: A basic networking device that connects multiple Ethernet devices, making them act as a single network segment.
+Modem: Modulates and demodulates signals for data transmission over telephone lines or cable systems.
+Access Point: Allows wireless devices to connect to a wired network using Wi-Fi.
+8. Appropriate Media, Cables, Ports, and Connectors
+Make a list of the appropriate media, cables, ports, and connectors to connect switches to others
+
+Media: Ethernet (copper), Fiber optic
+Cables:
+Ethernet Cable (Cat5e, Cat6): For copper connections.
+Fiber Optic Cable: For high-speed connections over longer distances.
+Ports:
+Ethernet Ports: Typically RJ45 for copper.
+SFP Ports: For fiber optic connections.
+Connectors:
+RJ45 Connector: Used for Ethernet cables.
+LC/SC Connectors: Used for fiber optic cables.
+9. Network Devices and Hosts
+Define Network Devices and Hosts
+
+Network Devices: Hardware components that facilitate network communication (e.g., routers, switches, hubs, access points).
+Hosts: Any device that is connected to a network and can send or receive data (e.g., computers, servers, smartphones).
