@@ -1,0 +1,75 @@
+Windows Server - Networking With Windows Server
+
+
+25. Role of Windows Firewall in Windows Server
+Windows Firewall is a built-in security feature that helps protect Windows Server from unauthorized access and threats. It controls incoming and outgoing network traffic based on predefined security rules.
+
+Key Functions:
+Packet Filtering: Blocks or allows traffic based on IP addresses, ports, and protocols.
+Stateful Inspection: Monitors the state of active connections and determines which network packets to allow through the firewall.
+Advanced Security: Provides options for configuring rules for specific applications or services.
+Configuration Steps:
+Open Windows Firewall:
+Go to Control Panel > System and Security > Windows Defender Firewall.
+Create Rules:
+Click on Advanced settings to access the Windows Firewall with Advanced Security.
+Use the Inbound Rules and Outbound Rules to create new rules.
+Enable/Disable Firewall:
+You can turn the firewall on or off from the main firewall settings page.
+
+
+26. Network Address Translation (NAT) in Windows Server
+NAT allows a network to use private IP addresses internally while presenting a single public IP address externally. This is useful for conserving IP addresses and enhancing security.
+
+Configuration Steps:
+Install Routing and Remote Access Service (RRAS):
+Open Server Manager, navigate to Roles, and add the Routing and Remote Access role.
+Configure NAT:
+Open Routing and Remote Access from Tools in Server Manager.
+Right-click your server and select Configure and Enable Routing and Remote Access.
+Choose Network Address Translation (NAT) and follow the wizard to configure the settings.
+
+
+27. Dynamic Host Configuration Protocol (DHCP)
+DHCP automates the assignment of IP addresses, subnet masks, gateways, and other IP parameters to devices on a network.
+
+Configuration Steps in Windows Server 2016:
+Install DHCP Server Role:
+Open Server Manager, go to Add Roles and Features, and select DHCP Server.
+Configure DHCP:
+After installation, open the DHCP Management Console.
+Right-click on your server and select New Scope.
+Follow the wizard to define the range of IP addresses and configure options like default gateway and DNS servers.
+
+
+28. Configuring DNS (Domain Name System) in Windows Server
+DNS translates domain names into IP addresses, allowing users to access resources using human-readable names.
+
+Configuration Steps:
+Install DNS Server Role:
+Open Server Manager, go to Add Roles and Features, and select DNS Server.
+Configure DNS Zones:
+Open the DNS Manager from Tools.
+Right-click on your server and select New Zone to create a forward or reverse lookup zone.
+Follow the wizard to configure the zone settings.
+
+
+29. Server Manager
+Server Manager is a management console in Windows Server that provides a centralized interface for managing server roles and features.
+
+Key Uses:
+Role Management: Install, configure, and manage server roles and features.
+Performance Monitoring: Monitor server performance and resource usage.
+Remote Management: Manage multiple servers from a single interface.
+
+
+30. Remote Desktop Services (RDS)
+RDS allows users to connect to a remote server and access applications and desktops over a network.
+
+Configuration Steps:
+Install RDS Role:
+Open Server Manager, go to Add Roles and Features, and select Remote Desktop Services.
+Configure RDS:
+After installation, use the Remote Desktop Services Deployment wizard to configure session collections, licensing, and connection brokers.
+Publish Applications:
+Use the RemoteApp Manager to publish applications for remote access.
