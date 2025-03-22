@@ -1,0 +1,56 @@
+                 Linux Server - Linux Services And Permissions
+
+
+20. View Running Processes with ps
+The ps command is used to display information about currently running processes.
+
+Basic Usage:
+
+ps aux
+Explanation:
+a: Show processes for all users.
+u: Display the user/owner of the process.
+x: Include processes not attached to a terminal.
+
+
+21. Terminate Processes with kill
+The kill command is used to terminate processes by their Process ID (PID).
+
+Basic Usage:
+
+kill PID
+Force Termination: If the process does not terminate gracefully, you can use the -9 option to force it:
+
+kill -9 PID
+Example: To kill a process with PID 1234:
+
+kill 1234
+
+
+22. Use top or htop to Monitor System Resources and Processes
+Using top:
+
+top
+This command provides a real-time view of system processes, CPU usage, memory usage, and more. You can press q to exit.
+
+Using htop (if installed):
+
+htop
+htop is an enhanced version of top with a more user-friendly interface. You can navigate using arrow keys and use F9 to kill processes directly.
+
+
+23. Configure a Computer to Boot to the CLI Using Systemd and Reboot
+To configure your Linux system to boot into the command line interface (CLI) instead of the graphical user interface (GUI), follow these steps:
+
+Change the Default Target:
+Use the following command to set the default target to multi-user (CLI mode):
+
+sudo systemctl set-default multi-user.target
+Reboot the System:
+
+sudo reboot
+Summary of Steps
+To view running processes, use ps aux.
+To terminate a process, use kill PID.
+To monitor system resources, use top or htop.
+To configure the system to boot to CLI, set the default target to multi-user.target and reboot.
