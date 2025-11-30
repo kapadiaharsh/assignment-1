@@ -1,0 +1,95 @@
+Introduction to Cloud Computing
+
+Cloud Computing is a technology that allows users to access computing resources—such as servers, storage, databases, networking, and software—over the internet instead of using physical hardware on their own machines.
+
+In simple words:
+Cloud = Internet-based computing.
+You use resources online without owning or managing them physically.
+
+Examples: Google Drive, AWS, Microsoft Azure, Netflix streaming, Gmail.
+
+Key Features of Cloud Computing
+1. On-Demand Access
+
+You can access cloud services anytime without waiting for manual setup.
+
+2. Scalability
+
+Resources can increase or decrease automatically based on your needs.
+
+3. Pay-as-you-go Model
+
+You only pay for the services you use.
+No need for expensive hardware.
+
+4. Flexibility and Mobility
+
+You can access your data and applications from anywhere using the internet.
+
+5. Cost-Effective
+
+No maintenance cost, no hardware purchase, no physical servers needed.
+
+Types of Cloud Services (Service Models)
+A) IaaS – Infrastructure as a Service
+
+Provides virtual machines, networks, storage, and servers.
+Example: AWS EC2, Google Compute Engine, Azure VMs.
+
+B) PaaS – Platform as a Service
+
+Provides platforms for developers to build and run applications.
+Example: Heroku, Google App Engine, AWS Elastic Beanstalk.
+
+C) SaaS – Software as a Service
+
+Provides ready-to-use applications over the internet.
+Example: Gmail, Zoom, Office 365, Google Docs.
+
+Deployment Models
+1. Public Cloud
+
+Services are available to everyone on the internet.
+Examples: AWS, Azure, Google Cloud.
+
+2. Private Cloud
+
+Used by a single organization.
+More security and control.
+
+3. Hybrid Cloud
+
+Combination of public and private cloud.
+Balances security and performance.
+
+Benefits of Cloud Computing
+
+Reduced operational costs
+
+No hardware installation
+
+Easy data backup
+
+High performance and speed
+
+Global accessibility
+
+Automatic updates
+
+Strong security features
+
+Real-Life Uses of Cloud Computing
+
+Netflix uses cloud to stream movies
+
+Banks store customer data securely in cloud
+
+Gaming companies host online games
+
+Companies use cloud for email, storage, websites, and virtual servers
+
+Students use cloud for assignments and file storage (Google Drive)
+
+Conclusion
+
+Cloud computing is a powerful technology that provides internet-based computing services. It offers flexibility, cost-efficiency, scalability, and global access. Because of its reliability and easy availability, cloud computing has become the backbone of modern IT industries.
