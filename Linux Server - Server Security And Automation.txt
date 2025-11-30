@@ -1,0 +1,111 @@
+Linux Server – Server Security and Automation
+
+A Linux server is a powerful computer system that uses a Linux-based operating system to manage network resources, host applications, and provide services to users. Linux is widely used in companies because it is secure, stable, fast, and open-source.
+
+1. Server Security
+
+Server security means protecting the Linux server from unauthorized access, attacks, and data loss. Good security ensures the server runs safely and reliably.
+
+A) User and Permission Management
+
+Linux uses users, groups, and permissions to control access.
+
+Files can be restricted using read (r), write (w), and execute (x) permissions.
+
+Commands like chmod, chown, and usermod help manage security.
+
+B) Firewall Configuration
+
+Linux servers use firewalls like UFW or firewalld to allow or block network traffic.
+
+Firewalls prevent unauthorized connections and reduce attack risks.
+
+C) Secure Shell (SSH)
+
+SSH is used for secure remote login.
+
+Security can be improved by:
+
+Using strong passwords
+
+Disabling root login
+
+Using SSH keys for authentication
+
+Changing the default port (22)
+
+D) Regular Updates
+
+Keeping the server updated with security patches prevents vulnerabilities.
+
+Commands like apt update, apt upgrade, or yum update help maintain security.
+
+E) Intrusion Detection
+
+Tools like Fail2ban, SELinux, and AppArmor help detect and block suspicious activities.
+
+Log files in /var/log can be monitored to track errors and login attempts.
+
+F) Backup and Recovery
+
+Regular backups protect data during failures.
+
+Tools like rsync, cron jobs, or cloud backup services ensure data safety.
+
+2. Server Automation
+
+Server automation means using scripts or tools to automatically perform repetitive tasks. Automation reduces errors, saves time, and makes server management more efficient.
+
+A) Shell Scripting
+
+Bash scripts automate tasks like:
+
+Creating backups
+
+Monitoring system performance
+
+Starting or stopping services
+
+Cleaning temporary files
+
+B) Cron Jobs
+
+Cron is a time-based job scheduler in Linux.
+
+It is used to run tasks automatically at fixed times.
+
+Examples:
+
+Daily backups
+
+Weekly updates
+
+Monthly reports
+
+C) Configuration Management Tools
+
+These tools automate server setup, deployment, and updates:
+
+Ansible
+
+Puppet
+
+Chef
+
+They help manage hundreds of servers with a single command.
+
+D) Docker and Containers
+
+Containers help automate application deployment.
+
+They ensure the same environment across development and production.
+
+E) Systemd Services
+
+systemctl can be used to create automated services that run at boot time.
+
+Helpful for database servers, web servers, and custom applications.
+
+Conclusion
+
+Linux server security focuses on controlling access, protecting data, updating systems, and monitoring threats. Automation helps simplify repetitive tasks through scripts, cron jobs, and configuration tools. Together, security and automation make Linux servers reliable, efficient, and safe for business environments.
