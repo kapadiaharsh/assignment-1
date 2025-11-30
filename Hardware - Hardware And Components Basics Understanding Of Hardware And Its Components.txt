@@ -1,0 +1,100 @@
+Hardware – Basics of Hardware and Its Components
+
+Hardware refers to the physical parts of a computer system that you can see and touch. It includes all the electronic and mechanical components that make the computer work. Hardware works together with software to process data and produce output.
+
+1. Types of Computer Hardware
+A) Input Devices
+
+Input devices are used to enter data and instructions into the computer.
+Common examples:
+
+Keyboard
+
+Mouse
+
+Scanner
+
+Microphone
+
+Webcam
+
+Barcode Reader
+
+Touchscreen
+
+B) Output Devices
+
+Output devices display or present the processed result to the user.
+Examples include:
+
+Monitor
+
+Printer
+
+Speakers
+
+Projector
+
+Headphones
+
+C) Storage Devices
+
+Storage devices are used to store data permanently or temporarily.
+Examples:
+
+HDD (Hard Disk Drive)
+
+SSD (Solid State Drive)
+
+Pen Drive
+
+Memory Card
+
+External Hard Drive
+
+SSD is faster, while HDD offers more storage at a lower cost.
+
+2. Processing Components
+A) CPU (Central Processing Unit)
+
+The CPU is known as the brain of the computer. It performs all major tasks such as:
+
+Fetching instructions
+
+Decoding instructions
+
+Executing instructions
+
+B) GPU (Graphics Processing Unit)
+
+The GPU handles visual tasks like graphics, video rendering, gaming, and animations.
+There are two types of GPUs:
+
+Integrated GPU (built inside the CPU)
+
+Dedicated GPU (separate, more powerful chip)
+
+3. Essential Internal Hardware Components
+A) Motherboard
+
+The motherboard is the main circuit board of the computer. All components like CPU, RAM, GPU, and storage devices connect to it. It acts as a communication hub for all hardware parts.
+
+B) RAM (Random Access Memory)
+
+RAM is temporary memory that stores data and instructions currently being used by the CPU.
+
+It is fast
+
+It loses data when power is off (volatile memory)
+
+C) Power Supply Unit (PSU)
+
+The PSU converts AC power into DC power and supplies it to all components.
+
+D) Cooling System
+
+Cooling systems (fans or liquid coolers) prevent hardware from overheating and ensure stable performance.
+
+Conclusion
+
+Computer hardware includes all the physical components that work together to process data, store information, and deliver output. A proper understanding of hardware is essential for building, repairing, or maintaining computer systems.
